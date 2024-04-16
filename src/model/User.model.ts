@@ -23,7 +23,6 @@ const MessageSchema: Schema<Message> = new Schema({
   },
 });
 
-
 /**
  * Define the interface for the User document
  */
@@ -88,4 +87,4 @@ const UserModel =
   (mongoose.models.User as mongoose.Model<User>) ||
   mongoose.model<User>("User", UserSchema);
 
-export default UserModel; 
+export default UserModel;
