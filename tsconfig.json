@@ -3,6 +3,7 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
+    "types": ["@react-email/components"],
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
